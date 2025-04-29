@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image';
-import logo from '../../public/images/homepage/logo.png'; // Adjusted path
+import logo from '../../public/images/homepage/logo.png';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-8">
         <Image src={logo} alt="Uifry Logo" width={100} height={40} />
         <ul className="flex space-x-6">
-          <li><a href="#" className="text-red-500 font-bold">Home</a></li>
+          <li><a href="#" className="text-red-500 font-bold">ໜ້າຫຼັກ</a></li>
           <li><a href="#" className="hover:text-red-500">About Us</a></li>
           <li><a href="#" className="hover:text-red-500">Pricing</a></li>
           <li><a href="#" className="hover:text-red-500">Features</a></li>
